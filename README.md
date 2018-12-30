@@ -8,5 +8,5 @@ Frontend with Angular
 Demo posted at: https://aeriaa.com/aeriaa-airport-dashboard-controlling-airport-facilities-jetways/
 
 Other related airport systems repositories:
-https://github.com/pgfernandez/AirportSystems
+https://github.com/pgfernandez/AirportSystems (Mongo database is needed to run this App)
 https://github.com/pgfernandez/SmartBagExperience
