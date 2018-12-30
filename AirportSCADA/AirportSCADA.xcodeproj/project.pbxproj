@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0EBE8819D7385700813691 /* AERJetway.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EBE8719D7385700813691 /* AERJetway.m */; };
+		EB3E38991A13EE190021F060 /* DLH.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3E38931A13EE190021F060 /* DLH.png */; };
+		EB3E389A1A13EE190021F060 /* EIN.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3E38941A13EE190021F060 /* EIN.png */; };
+		EB3E389B1A13EE190021F060 /* EZY.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3E38951A13EE190021F060 /* EZY.png */; };
+		EB3E389C1A13EE190021F060 /* IBE.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3E38961A13EE190021F060 /* IBE.png */; };
+		EB3E389D1A13EE190021F060 /* KLM.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3E38971A13EE190021F060 /* KLM.png */; };
+		EB3E389E1A13EE190021F060 /* RYR.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3E38981A13EE190021F060 /* RYR.png */; };
+		EB8C4A5D199F57D6003B3DE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8C4A5C199F57D6003B3DE4 /* Foundation.framework */; };
+		EB8C4A5F199F57D6003B3DE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8C4A5E199F57D6003B3DE4 /* CoreGraphics.framework */; };
+		EB8C4A61199F57D6003B3DE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8C4A60199F57D6003B3DE4 /* UIKit.framework */; };
+		EB8C4A67199F57D6003B3DE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB8C4A65199F57D6003B3DE4 /* InfoPlist.strings */; };
+		EB8C4A69199F57D6003B3DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C4A68199F57D6003B3DE4 /* main.m */; };
+		EB8C4A6D199F57D6003B3DE4 /* AERAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C4A6C199F57D6003B3DE4 /* AERAppDelegate.m */; };
+		EB8C4A6F199F57D6003B3DE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8C4A6E199F57D6003B3DE4 /* Images.xcassets */; };
+		EB8C4A76199F57D6003B3DE4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8C4A75199F57D6003B3DE4 /* XCTest.framework */; };
+		EB8C4A77199F57D6003B3DE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8C4A5C199F57D6003B3DE4 /* Foundation.framework */; };
+		EB8C4A78199F57D6003B3DE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8C4A60199F57D6003B3DE4 /* UIKit.framework */; };
+		EB8C4A80199F57D6003B3DE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB8C4A7E199F57D6003B3DE4 /* InfoPlist.strings */; };
+		EB8C4A82199F57D6003B3DE4 /* AirportSCADATests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C4A81199F57D6003B3DE4 /* AirportSCADATests.m */; };
+		EB8C4A92199F588F003B3DE4 /* AERHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C4A90199F588F003B3DE4 /* AERHomeViewController.m */; };
+		EB8C4A93199F588F003B3DE4 /* AERHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8C4A91199F588F003B3DE4 /* AERHomeViewController.xib */; };
+		EB8C4A96199F58D7003B3DE4 /* papepee airport2.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8C4A94199F58D7003B3DE4 /* papepee airport2.png */; };
+		EB8C4A9A199F5D2A003B3DE4 /* AERMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C4A99199F5D2A003B3DE4 /* AERMenu.m */; };
+		EBCC44921C8309600015FB48 /* BHSViewBSMController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBCC44911C8309600015FB48 /* BHSViewBSMController.xib */; };
+		EBD2BA7F19AE0477006BECB0 /* AERJetwayDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD2BA7D19AE0477006BECB0 /* AERJetwayDataController.m */; };
+		EBD2BA8019AE0477006BECB0 /* AERJetwayDataController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD2BA7E19AE0477006BECB0 /* AERJetwayDataController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB8C4A79199F57D6003B3DE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8C4A51199F57D6003B3DE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8C4A58199F57D6003B3DE4;
+			remoteInfo = AirportSCADA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB0EBE8619D7385700813691 /* AERJetway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AERJetway.h; sourceTree = "<group>"; };
+		EB0EBE8719D7385700813691 /* AERJetway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERJetway.m; sourceTree = "<group>"; };
+		EB3E38931A13EE190021F060 /* DLH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DLH.png; sourceTree = "<group>"; };
+		EB3E38941A13EE190021F060 /* EIN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EIN.png; sourceTree = "<group>"; };
+		EB3E38951A13EE190021F060 /* EZY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EZY.png; sourceTree = "<group>"; };
+		EB3E38961A13EE190021F060 /* IBE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IBE.png; sourceTree = "<group>"; };
+		EB3E38971A13EE190021F060 /* KLM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KLM.png; sourceTree = "<group>"; };
+		EB3E38981A13EE190021F060 /* RYR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RYR.png; sourceTree = "<group>"; };
+		EB8C4A59199F57D6003B3DE4 /* AirportSCADA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportSCADA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8C4A5C199F57D6003B3DE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB8C4A5E199F57D6003B3DE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB8C4A60199F57D6003B3DE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB8C4A64199F57D6003B3DE4 /* AirportSCADA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirportSCADA-Info.plist"; sourceTree = "<group>"; };
+		EB8C4A66199F57D6003B3DE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB8C4A68199F57D6003B3DE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB8C4A6A199F57D6003B3DE4 /* AirportSCADA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirportSCADA-Prefix.pch"; sourceTree = "<group>"; };
+		EB8C4A6B199F57D6003B3DE4 /* AERAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AERAppDelegate.h; sourceTree = "<group>"; };
+		EB8C4A6C199F57D6003B3DE4 /* AERAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AERAppDelegate.m; sourceTree = "<group>"; };
+		EB8C4A6E199F57D6003B3DE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB8C4A74199F57D6003B3DE4 /* AirportSCADATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportSCADATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8C4A75199F57D6003B3DE4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EB8C4A7D199F57D6003B3DE4 /* AirportSCADATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirportSCADATests-Info.plist"; sourceTree = "<group>"; };
+		EB8C4A7F199F57D6003B3DE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB8C4A81199F57D6003B3DE4 /* AirportSCADATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirportSCADATests.m; sourceTree = "<group>"; };
+		EB8C4A8F199F588F003B3DE4 /* AERHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AERHomeViewController.h; sourceTree = "<group>"; };
+		EB8C4A90199F588F003B3DE4 /* AERHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERHomeViewController.m; sourceTree = "<group>"; };
+		EB8C4A91199F588F003B3DE4 /* AERHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AERHomeViewController.xib; sourceTree = "<group>"; };
+		EB8C4A94199F58D7003B3DE4 /* papepee airport2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "papepee airport2.png"; sourceTree = "<group>"; };
+		EB8C4A98199F5D2A003B3DE4 /* AERMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AERMenu.h; sourceTree = "<group>"; };
+		EB8C4A99199F5D2A003B3DE4 /* AERMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERMenu.m; sourceTree = "<group>"; };
+		EBCC44911C8309600015FB48 /* BHSViewBSMController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BHSViewBSMController.xib; sourceTree = "<group>"; };
+		EBD2BA7C19AE0477006BECB0 /* AERJetwayDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AERJetwayDataController.h; sourceTree = "<group>"; };
+		EBD2BA7D19AE0477006BECB0 /* AERJetwayDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERJetwayDataController.m; sourceTree = "<group>"; };
+		EBD2BA7E19AE0477006BECB0 /* AERJetwayDataController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AERJetwayDataController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB8C4A56199F57D6003B3DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8C4A5F199F57D6003B3DE4 /* CoreGraphics.framework in Frameworks */,
+				EB8C4A61199F57D6003B3DE4 /* UIKit.framework in Frameworks */,
+				EB8C4A5D199F57D6003B3DE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8C4A71199F57D6003B3DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8C4A76199F57D6003B3DE4 /* XCTest.framework in Frameworks */,
+				EB8C4A78199F57D6003B3DE4 /* UIKit.framework in Frameworks */,
+				EB8C4A77199F57D6003B3DE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB3E38921A13EDFC0021F060 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				EB3E38931A13EE190021F060 /* DLH.png */,
+				EB3E38941A13EE190021F060 /* EIN.png */,
+				EB3E38951A13EE190021F060 /* EZY.png */,
+				EB3E38961A13EE190021F060 /* IBE.png */,
+				EB3E38971A13EE190021F060 /* KLM.png */,
+				EB3E38981A13EE190021F060 /* RYR.png */,
+			);
+			name = logos;
+			sourceTree = "<group>";
+		};
+		EB8C4A50199F57D6003B3DE4 = {
+			isa = PBXGroup;
+			children = (
+				EB8C4A62199F57D6003B3DE4 /* AirportSCADA */,
+				EB8C4A7B199F57D6003B3DE4 /* AirportSCADATests */,
+				EB8C4A5B199F57D6003B3DE4 /* Frameworks */,
+				EB8C4A5A199F57D6003B3DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB8C4A5A199F57D6003B3DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C4A59199F57D6003B3DE4 /* AirportSCADA.app */,
+				EB8C4A74199F57D6003B3DE4 /* AirportSCADATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB8C4A5B199F57D6003B3DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C4A5C199F57D6003B3DE4 /* Foundation.framework */,
+				EB8C4A5E199F57D6003B3DE4 /* CoreGraphics.framework */,
+				EB8C4A60199F57D6003B3DE4 /* UIKit.framework */,
+				EB8C4A75199F57D6003B3DE4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB8C4A62199F57D6003B3DE4 /* AirportSCADA */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C4A8E199F585C003B3DE4 /* Resources */,
+				EB8C4A8D199F5854003B3DE4 /* Controllers */,
+				EB8C4A8C199F5840003B3DE4 /* Views */,
+				EB8C4A8B199F5836003B3DE4 /* Models */,
+				EB8C4A6B199F57D6003B3DE4 /* AERAppDelegate.h */,
+				EB8C4A6C199F57D6003B3DE4 /* AERAppDelegate.m */,
+				EB8C4A6E199F57D6003B3DE4 /* Images.xcassets */,
+				EB8C4A63199F57D6003B3DE4 /* Supporting Files */,
+			);
+			path = AirportSCADA;
+			sourceTree = "<group>";
+		};
+		EB8C4A63199F57D6003B3DE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C4A64199F57D6003B3DE4 /* AirportSCADA-Info.plist */,
+				EB8C4A65199F57D6003B3DE4 /* InfoPlist.strings */,
+				EB8C4A68199F57D6003B3DE4 /* main.m */,
+				EB8C4A6A199F57D6003B3DE4 /* AirportSCADA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB8C4A7B199F57D6003B3DE4 /* AirportSCADATests */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C4A81199F57D6003B3DE4 /* AirportSCADATests.m */,
+				EB8C4A7C199F57D6003B3DE4 /* Supporting Files */,
+			);
+			path = AirportSCADATests;
+			sourceTree = "<group>";
+		};
+		EB8C4A7C199F57D6003B3DE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C4A7D199F57D6003B3DE4 /* AirportSCADATests-Info.plist */,
+				EB8C4A7E199F57D6003B3DE4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB8C4A8B199F5836003B3DE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C4A98199F5D2A003B3DE4 /* AERMenu.h */,
+				EB8C4A99199F5D2A003B3DE4 /* AERMenu.m */,
+				EB0EBE8619D7385700813691 /* AERJetway.h */,
+				EB0EBE8719D7385700813691 /* AERJetway.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EB8C4A8C199F5840003B3DE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C4A8F199F588F003B3DE4 /* AERHomeViewController.h */,
+				EBD2BA7C19AE0477006BECB0 /* AERJetwayDataController.h */,
+				EBD2BA7D19AE0477006BECB0 /* AERJetwayDataController.m */,
+				EBD2BA7E19AE0477006BECB0 /* AERJetwayDataController.xib */,
+				EB8C4A90199F588F003B3DE4 /* AERHomeViewController.m */,
+				EB8C4A91199F588F003B3DE4 /* AERHomeViewController.xib */,
+				EBCC44911C8309600015FB48 /* BHSViewBSMController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EB8C4A8D199F5854003B3DE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EB8C4A8E199F585C003B3DE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB3E38921A13EDFC0021F060 /* logos */,
+				EB8C4A94199F58D7003B3DE4 /* papepee airport2.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB8C4A58199F57D6003B3DE4 /* AirportSCADA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8C4A85199F57D6003B3DE4 /* Build configuration list for PBXNativeTarget "AirportSCADA" */;
+			buildPhases = (
+				EB8C4A55199F57D6003B3DE4 /* Sources */,
+				EB8C4A56199F57D6003B3DE4 /* Frameworks */,
+				EB8C4A57199F57D6003B3DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirportSCADA;
+			productName = AirportSCADA;
+			productReference = EB8C4A59199F57D6003B3DE4 /* AirportSCADA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB8C4A73199F57D6003B3DE4 /* AirportSCADATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8C4A88199F57D6003B3DE4 /* Build configuration list for PBXNativeTarget "AirportSCADATests" */;
+			buildPhases = (
+				EB8C4A70199F57D6003B3DE4 /* Sources */,
+				EB8C4A71199F57D6003B3DE4 /* Frameworks */,
+				EB8C4A72199F57D6003B3DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8C4A7A199F57D6003B3DE4 /* PBXTargetDependency */,
+			);
+			name = AirportSCADATests;
+			productName = AirportSCADATests;
+			productReference = EB8C4A74199F57D6003B3DE4 /* AirportSCADATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB8C4A51199F57D6003B3DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AER;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = aeriaa;
+				TargetAttributes = {
+					EB8C4A73199F57D6003B3DE4 = {
+						TestTargetID = EB8C4A58199F57D6003B3DE4;
+					};
+				};
+			};
+			buildConfigurationList = EB8C4A54199F57D6003B3DE4 /* Build configuration list for PBXProject "AirportSCADA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB8C4A50199F57D6003B3DE4;
+			productRefGroup = EB8C4A5A199F57D6003B3DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB8C4A58199F57D6003B3DE4 /* AirportSCADA */,
+				EB8C4A73199F57D6003B3DE4 /* AirportSCADATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB8C4A57199F57D6003B3DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3E389C1A13EE190021F060 /* IBE.png in Resources */,
+				EB3E38991A13EE190021F060 /* DLH.png in Resources */,
+				EB3E389D1A13EE190021F060 /* KLM.png in Resources */,
+				EBCC44921C8309600015FB48 /* BHSViewBSMController.xib in Resources */,
+				EB8C4A67199F57D6003B3DE4 /* InfoPlist.strings in Resources */,
+				EB3E389B1A13EE190021F060 /* EZY.png in Resources */,
+				EB8C4A6F199F57D6003B3DE4 /* Images.xcassets in Resources */,
+				EB3E389A1A13EE190021F060 /* EIN.png in Resources */,
+				EB3E389E1A13EE190021F060 /* RYR.png in Resources */,
+				EB8C4A96199F58D7003B3DE4 /* papepee airport2.png in Resources */,
+				EBD2BA8019AE0477006BECB0 /* AERJetwayDataController.xib in Resources */,
+				EB8C4A93199F588F003B3DE4 /* AERHomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8C4A72199F57D6003B3DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8C4A80199F57D6003B3DE4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB8C4A55199F57D6003B3DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8C4A92199F588F003B3DE4 /* AERHomeViewController.m in Sources */,
+				EB8C4A9A199F5D2A003B3DE4 /* AERMenu.m in Sources */,
+				EB0EBE8819D7385700813691 /* AERJetway.m in Sources */,
+				EB8C4A69199F57D6003B3DE4 /* main.m in Sources */,
+				EB8C4A6D199F57D6003B3DE4 /* AERAppDelegate.m in Sources */,
+				EBD2BA7F19AE0477006BECB0 /* AERJetwayDataController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8C4A70199F57D6003B3DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8C4A82199F57D6003B3DE4 /* AirportSCADATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB8C4A7A199F57D6003B3DE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8C4A58199F57D6003B3DE4 /* AirportSCADA */;
+			targetProxy = EB8C4A79199F57D6003B3DE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB8C4A65199F57D6003B3DE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8C4A66199F57D6003B3DE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB8C4A7E199F57D6003B3DE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8C4A7F199F57D6003B3DE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB8C4A83199F57D6003B3DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EB8C4A84199F57D6003B3DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB8C4A86199F57D6003B3DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirportSCADA/AirportSCADA-Prefix.pch";
+				INFOPLIST_FILE = "AirportSCADA/AirportSCADA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB8C4A87199F57D6003B3DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirportSCADA/AirportSCADA-Prefix.pch";
+				INFOPLIST_FILE = "AirportSCADA/AirportSCADA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB8C4A89199F57D6003B3DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirportSCADA.app/AirportSCADA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirportSCADA/AirportSCADA-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AirportSCADATests/AirportSCADATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EB8C4A8A199F57D6003B3DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirportSCADA.app/AirportSCADA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirportSCADA/AirportSCADA-Prefix.pch";
+				INFOPLIST_FILE = "AirportSCADATests/AirportSCADATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB8C4A54199F57D6003B3DE4 /* Build configuration list for PBXProject "AirportSCADA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8C4A83199F57D6003B3DE4 /* Debug */,
+				EB8C4A84199F57D6003B3DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8C4A85199F57D6003B3DE4 /* Build configuration list for PBXNativeTarget "AirportSCADA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8C4A86199F57D6003B3DE4 /* Debug */,
+				EB8C4A87199F57D6003B3DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8C4A88199F57D6003B3DE4 /* Build configuration list for PBXNativeTarget "AirportSCADATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8C4A89199F57D6003B3DE4 /* Debug */,
+				EB8C4A8A199F57D6003B3DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB8C4A51199F57D6003B3DE4 /* Project object */;
+}

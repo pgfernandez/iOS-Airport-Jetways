@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AERHomeViewController">
+            <connections>
+                <outlet property="detailSystemsView" destination="xbk-B0-EPW" id="zAq-Zs-cOR"/>
+                <outlet property="flightsTable" destination="vxX-C4-zLu" id="OSo-uS-t6v"/>
+                <outlet property="jetwayA02" destination="32p-Vc-4Cg" id="njd-Ha-XHe"/>
+                <outlet property="jetwayA03" destination="VDj-TM-Gto" id="z6x-ME-qW3"/>
+                <outlet property="jetwayA04" destination="Gy0-cD-SNH" id="dNw-zi-0lM"/>
+                <outlet property="jetwayA05" destination="R92-Em-BTW" id="4Mn-sX-7g0"/>
+                <outlet property="jetwayA06" destination="jTq-lV-YmX" id="Nxz-bP-Hqs"/>
+                <outlet property="jetwayA07" destination="kbc-bc-9UO" id="C0a-Dm-mBv"/>
+                <outlet property="jetwayA08" destination="7iL-kZ-b8n" id="mfs-l5-UdZ"/>
+                <outlet property="jetwayA09" destination="1n1-gd-zHb" id="fwZ-eH-Ozx"/>
+                <outlet property="jetwayA10" destination="FFw-GO-X9b" id="Q9j-IW-ly1"/>
+                <outlet property="jetwayA11" destination="kry-xS-PwV" id="D5S-hH-1Xx"/>
+                <outlet property="jetwayB01" destination="t1k-ub-fL0" id="vgB-F5-I5n"/>
+                <outlet property="jetwayB02" destination="reZ-ds-rkt" id="foV-6k-bWt"/>
+                <outlet property="jetwayB03" destination="uxc-V5-0to" id="6fb-Lt-60n"/>
+                <outlet property="jetwayB04" destination="S76-uM-Oqg" id="kpZ-KL-TfL"/>
+                <outlet property="jetwayB05" destination="b4z-B4-uZq" id="78d-Qw-NCM"/>
+                <outlet property="jetwayB06" destination="olt-4a-aNs" id="vZd-JZ-rbd"/>
+                <outlet property="jetwayB07" destination="tS1-Qf-yBH" id="7oJ-mH-e2g"/>
+                <outlet property="jetwayB08" destination="PV1-dr-K6v" id="ULJ-Jg-oMn"/>
+                <outlet property="jetwayB09" destination="ZZe-6V-y4M" id="9Av-4X-vmq"/>
+                <outlet property="jetwayB10" destination="NOI-B4-Ksb" id="jsc-HN-JYj"/>
+                <outlet property="jetwayB11" destination="rXn-Zb-Vhf" id="dcM-XJ-j71"/>
+                <outlet property="jetwayB12" destination="lAO-Bg-L59" id="1YT-vT-86l"/>
+                <outlet property="jetwayCode" destination="Vq3-pQ-ux9" id="V94-gn-OvR"/>
+                <outlet property="jetwayDGSStatus" destination="Pow-d2-HdF" id="N70-Ia-CW0"/>
+                <outlet property="jetwayHVACStatus" destination="3gS-kn-oaL" id="JMl-rd-OoA"/>
+                <outlet property="jetwayHzStatus" destination="ZGu-yo-wO0" id="O54-bW-YJE"/>
+                <outlet property="jetwayStatus" destination="eOO-FY-EIc" id="Lof-rc-AnT"/>
+                <outlet property="systemsTable" destination="ClZ-j1-ES1" id="tSO-RR-rYX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="pPk-XW-P4e"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="papepee airport2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ajf-nz-a1X">
+                    <rect key="frame" x="224" y="-41" width="882" height="572"/>
+                </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xbk-B0-EPW">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Papepee aeriaA International Airport" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svB-OD-RlK">
+                    <rect key="frame" x="704" y="25" width="305" height="54"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNN-Fg-XiW">
+                    <rect key="frame" x="356" y="159" width="34" height="19"/>
+                    <state key="normal" title="A01">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="921-C4-VGV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FFw-GO-X9b">
+                    <rect key="frame" x="534" y="265" width="41" height="27"/>
+                    <state key="normal" title="A10">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="ifh-5T-FW8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kry-xS-PwV">
+                    <rect key="frame" x="520" y="304" width="41" height="27"/>
+                    <state key="normal" title="A11">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="dBt-iz-ERM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDj-TM-Gto">
+                    <rect key="frame" x="397" y="120" width="17" height="19"/>
+                    <state key="normal" title="A03">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="jdc-pU-HjL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32p-Vc-4Cg">
+                    <rect key="frame" x="401" y="185" width="17" height="19"/>
+                    <state key="normal" title="A02">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="Y9F-Te-9Gx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R92-Em-BTW">
+                    <rect key="frame" x="425" y="119" width="17" height="19"/>
+                    <state key="normal" title="A05">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="Hv0-bB-Usj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gy0-cD-SNH">
+                    <rect key="frame" x="430" y="180" width="17" height="19"/>
+                    <state key="normal" title="A04">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="hOr-HQ-woG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbc-bc-9UO">
+                    <rect key="frame" x="450" y="114" width="17" height="19"/>
+                    <state key="normal" title="A07">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="rRV-K6-nVX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTq-lV-YmX">
+                    <rect key="frame" x="454" y="175" width="17" height="19"/>
+                    <state key="normal" title="A06">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="mpA-5L-lfk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1n1-gd-zHb">
+                    <rect key="frame" x="474" y="110" width="17" height="19"/>
+                    <state key="normal" title="A09">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="Lkf-Gc-tJA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7iL-kZ-b8n">
+                    <rect key="frame" x="482" y="172" width="17" height="19"/>
+                    <state key="normal" title="A08">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="weB-lC-ncE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1k-ub-fL0">
+                    <rect key="frame" x="550" y="350" width="25" height="46"/>
+                    <state key="normal" title="B01">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="ZPv-Wa-VT2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reZ-ds-rkt">
+                    <rect key="frame" x="606" y="337" width="55" height="34"/>
+                    <state key="normal" title="B02">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="UJ2-3z-NT0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxc-V5-0to">
+                    <rect key="frame" x="624" y="299" width="55" height="26"/>
+                    <state key="normal" title="B03">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="N21-He-TZT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S76-uM-Oqg">
+                    <rect key="frame" x="797" y="316" width="35" height="26"/>
+                    <state key="normal" title="B04">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="QEM-Ip-USw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olt-4a-aNs">
+                    <rect key="frame" x="825" y="345" width="32" height="24"/>
+                    <state key="normal" title="B06">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="8k0-Zd-wtP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PV1-dr-K6v">
+                    <rect key="frame" x="854" y="375" width="32" height="24"/>
+                    <state key="normal" title="B08">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="R9q-Rl-noI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOI-B4-Ksb">
+                    <rect key="frame" x="884" y="407" width="32" height="24"/>
+                    <state key="normal" title="B10">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="wd8-da-C4C"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4z-B4-uZq">
+                    <rect key="frame" x="865" y="256" width="32" height="24"/>
+                    <state key="normal" title="B05">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="NEx-72-kye"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tS1-Qf-yBH">
+                    <rect key="frame" x="893" y="283" width="32" height="24"/>
+                    <state key="normal" title="B07">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="19E-jf-CCY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZe-6V-y4M">
+                    <rect key="frame" x="919" y="310" width="32" height="24"/>
+                    <state key="normal" title="B09">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="5ri-nn-KSY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXn-Zb-Vhf">
+                    <rect key="frame" x="949" y="340" width="32" height="24"/>
+                    <state key="normal" title="B11">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="LaP-LI-Whl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAO-Bg-L59">
+                    <rect key="frame" x="945" y="397" width="36" height="34"/>
+                    <state key="normal" title="B12">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showJetwayInfo:" destination="-1" eventType="touchDown" id="2b4-Uo-AAm"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Id:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32r-lb-WRW">
+                    <rect key="frame" x="243" y="579" width="99" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZz-22-SNT">
+                    <rect key="frame" x="243" y="617" width="99" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="400Hz:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSG-i6-mPk">
+                    <rect key="frame" x="243" y="655" width="99" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DGS:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wp0-TL-Mob">
+                    <rect key="frame" x="243" y="692" width="99" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HVAC:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1f-e1-1GC">
+                    <rect key="frame" x="243" y="727" width="99" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vq3-pQ-ux9">
+                    <rect key="frame" x="356" y="579" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOO-FY-EIc">
+                    <rect key="frame" x="356" y="617" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGu-yo-wO0">
+                    <rect key="frame" x="356" y="655" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pow-d2-HdF">
+                    <rect key="frame" x="356" y="692" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gS-kn-oaL">
+                    <rect key="frame" x="356" y="727" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ClZ-j1-ES1" userLabel="menuTable">
+                    <rect key="frame" x="0.0" y="15" width="226" height="463"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="KII-FB-wQ6"/>
+                        <outlet property="delegate" destination="-1" id="fGD-uZ-tMP"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="vxX-C4-zLu" userLabel="flightsTable">
+                    <rect key="frame" x="563" y="579" width="226" height="463"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="np6-0t-p95"/>
+                        <outlet property="delegate" destination="-1" id="jDM-pw-2rT"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Air Bridge Data:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqZ-8z-Fee">
+                    <rect key="frame" x="243" y="544" width="122" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Air Bridge assigned flights:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOI-Za-PTl">
+                    <rect key="frame" x="563" y="544" width="206" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="papepee airport2.png" width="1920" height="884"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
